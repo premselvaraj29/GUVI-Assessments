@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/4f2aa7156c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="main-content">
+        <form
+          action="#"
+          method="get"
+          id="form1"
+          onsubmit="onSubmit()"
+          name="form1"
+        >
+          <table>
+            <tbody>
+              <!-- Full Name -->
+              <tr>
+                <td><label for="full-name">Full name</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="fas fa-portrait"></i>
+                    <input
+                      type="text"
+                      id="fname"
+                      name="fname"
+                      placeholder="Full Name"
+                      required
+                    />
+                  </div>
+                </td>
+              </tr>
+              <!-- Address Line 1 -->
+              <tr>
+                <td><label for="address-line-1">Address Line 1</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="far fa-address-book"></i>
+                    <input
+                      type="text"
+                      id="address-line-1"
+                      name="address-line-1"
+                      placeholder="Address Line 1"
+                      required
+                    />
+                  </div>
+                </td>
+              </tr>
+              <!-- Address Line -2 -->
+              <tr>
+                <td><label for="address-line-2">Address Line 2</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="far fa-address-book"></i>
+                    <input
+                      type="text"
+                      id="address-line-2"
+                      name="address-line-2"
+                      placeholder="Address Line 2"
+                      required
+                    />
+                  </div>
+                </td>
+              </tr>
+              <!-- City -->
+              <tr>
+                <td><label for="city">City</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="far fa-building"></i>
+                    <input
+                      type="text"
+                      id="city"
+                      name="city"
+                      placeholder="City"
+                      required
+                    />
+                  </div>
+                </td>
+              </tr>
+              <!-- State/Province/Region -->
+              <tr>
+                <td><label for="state">State/Province/Region</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input
+                      type="text"
+                      id="state"
+                      name="state"
+                      placeholder="State/Province/Region"
+                      required
+                    />
+                  </div>
+                </td>
+              </tr>
+              <!-- Postal code/Zip -->
+              <tr>
+                <td><label for="postal-zip">Postal code/Zip</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="fas fa-mail-bulk"></i>
+                    <input
+                      type="text"
+                      id="postal-zip"
+                      name="postal-zip"
+                      placeholder="Postal code/Zip"
+                      required
+                    />
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Country -->
+              <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="fa fa-globe"></i>
+                    <select name="country" id="country">
+                      <option value="India">India</option>
+                      <option value="Sri Lanka">Sri Lanka</option>
+                      <option value="China">China</option>
+                      <option value="Japan">Japan</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Email -->
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="fas fa-at"></i>
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Phone Number -->
+              <tr>
+                <td><label for="phone-number">Phone Number</label></td>
+                <td>
+                  <div class="flex-test">
+                    <i class="fa fa-mobile"></i>
+                    <input
+                      type="text"
+                      id="phone-number"
+                      name="phone-number"
+                      placeholder="Phone Number"
+                      required
+                    />
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="btn-flex">
+            <button type="submit" form="form1" value="Submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
